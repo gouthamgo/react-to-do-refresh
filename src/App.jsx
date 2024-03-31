@@ -1,10 +1,15 @@
-import { Navbar } from "./components/Navbar";
+import './Components/CSS/Todo.css'
+import { Todo } from './Components/Todo';
 
 
 const App = () => {
+  
+
+
+ 
   return (
     <div>
-      <Navbar />
+      <Todo/>
     </div>
   );
 };
